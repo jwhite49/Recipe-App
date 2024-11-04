@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipe 101</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cooking Recipe App</h1>
+
+        <div class="input-section">
+            <form id="recipeForm">
+                <input type="text" id="recipeName" placeholder="Recipe Name">
+                <textarea id="recipeDescription" placeholder="Recipe Description"></textarea>
+                <input type="file" id="recipeImage" accept="image/*">
+                <button type="button" id="addRecipeButton">Add Recipe</button>
+                <p id="message"></p>
+            </form>
+        </div>
+
+        <div id="recipeDisplay" class="recipe-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

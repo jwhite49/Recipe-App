@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 20;
+    background-color: #bfdfdf;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.input-section {
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0bfdb;
+    color: #fff;
+    border: 5 white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ee69b6;
+}
+.recipe-display {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.recipe-card {
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+.recipe-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.recipe-card h3 {
+    margin: 0;
+    color: #343a40;
+}
+.recipe-card p {
+    color: #6c757d;
+}
+.delete-btn {
+    background-color: #e7505f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+}
